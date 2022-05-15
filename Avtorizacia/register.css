@@ -1,0 +1,106 @@
+body {
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+fieldset
+{
+	margin: auto;
+	margin-top: 75px;
+	width: 400px;
+	border: 0px;
+	background: rgba(100, 120, 130);
+	border-radius: 50px;
+	padding: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	font-size: 13.5pt;
+	font-family: Roboto, sans-serif;
+	color: white;
+}
+input
+{
+	margin: 5px;
+	border-radius: 3px;
+}
+.register
+{
+	padding: 10px;
+	font-size: 11pt;
+	background: rgba(255, 255, 255, 0.6);
+	border: 3px solid rgba(255, 255, 255, 0.5);
+	margin: 10px;
+}
+.Head
+{
+	font-size: 18pt;
+	color: black;
+	padding-bottom: 10px; 
+	color: Cornsilk;
+}
+#error
+{
+	color: red;
+	font-size: 15pt;
+}
+input:focus
+{
+	box-shadow: 0 0 10px rgba(0, 30, 246, 1);
+	border: 2px solid rgba(0, 30, 246, 0.5);
+	outline:none;
+}
+input:invalid
+{
+	color: pink;
+	border: 2px solid red;
+}
+#log
+{
+	font-size: 16pt;
+	color: pink;
+}
+.password 
+{
+	position: relative;
+}
+.password-control
+{
+	position: absolute;
+	top: 27px;
+	right: 115px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view 
+{
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+.password2
+{
+	position: relative;
+}
+.password-control2
+{
+	position: absolute;
+	top: 28px;
+	right: 165px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+.password-control.view 
+{
+	background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+.form___group 
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}

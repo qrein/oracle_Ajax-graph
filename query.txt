@@ -1,0 +1,1 @@
+SELECT TO_CHAR(date_in, 'dd.mm.yyyy HH24:MI'), WEIGHT, date_in FROM w_all.action WHERE dev_id = 255 AND date_in BETWEEN TO_DATE ('2019-01-01', 'yyyy-mm-dd') AND TO_DATE ('2019-01-02', 'yyyy-mm-dd') ORDER BY date_in ASC;

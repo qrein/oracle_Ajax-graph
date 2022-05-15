@@ -1,0 +1,130 @@
+.shield-chart
+{
+	position:relative;
+}
+.shield-buttons
+{
+	position:absolute;
+	top:3px;
+	right:5px;
+}
+.shield-chart-button[title='Print the chart']
+{
+	width:24px;
+	height:24px;
+	background-image: url( ../img/print.png );
+	background-size: 20px 20px;
+
+}
+
+.shield-chart-button[title='Export the chart to an image'] {
+ color: red; 
+
+ 	width:24px;
+	height:24px;
+	background-image: url( ../img/images.png );
+	background-size: 20px 20px;
+}
+
+.shield-chart-button 
+.shield-print-button-img,
+.shield-chart-button 
+.shield-export-button-img
+{
+	display:inline-block;
+	vertical-align:middle;
+}
+.shield-chart-button .shield-print-button-img
+{
+	background-position:-176px -80px;
+}
+.shield-chart-button .shield-export-button-img
+{
+	background-position:-192px -80px;
+}
+.shield-chart-button:hover 
+.shield-print-button-img,
+.shield-chart-button:active
+.shield-print-button-img
+{
+	background-position:-176px 0;
+}
+ .shield-chart-button:hover 
+ .shield-export-button-img,
+ .shield-chart-button:active
+  .shield-export-button-img
+{
+  	background-position:-192px 0;
+}
+  .shield-lightbox-mask
+{
+  	position:absolute;
+  	background-color:#919191;
+  	filter:alpha(opacity=60);
+  	opacity:.6;
+  	width:100%;
+  	height:100%;
+  	left:0;
+  	top:0;
+}
+  .shield-lightbox-imagebox
+{
+  	position:absolute;
+}
+  .shield-lightbox-imagebox 
+img{
+  	border:1px solid #f9a216;
+  	background-color:#f28e0c;
+}
+  .shield-lightbox
+p{
+   	position:absolute;
+   	top:100%;
+   	font-family:"Arial,Helvetica,sans-serif";
+   	font-size:12px;
+   	font-weight:700;
+   	color:#fff;
+   	background-color:#f28e0c;
+   	border:2px solid #f9a216;
+   	padding:3px 8px;
+   	-webkit-border-radius:12px;
+   	-moz-border-radius:12px;
+   	border-radius:12px;
+   	box-shadow:0 0 7px #919191;
+}
+  .shield-chart .shield-tooltip
+{
+  	color:#6d6d6d;
+  	background-color:#fff;
+  	font-family:"Arial,Helvetica,sans-serif";
+  	font-size:12px;
+  	border-width:1px;
+  	border-style:solid;
+  	border-color:#c4c4c4;
+  	border-radius:0;
+  	cursor:default;
+  	display:none;
+  	position:absolute;
+  	top:50px;
+  	left:50px;
+  	-webkit-transition:left .3s ease-out,top .3s ease-out;
+  	-moz-transition:left .3s ease-out,top .3s ease-out;
+  	transition:left .3s ease-out,top .3s ease-out;
+  	opacity:.95;
+  	filter:alpha(opacity=95);
+}
+  .shield-chart .shield-tooltip-header
+{
+  	padding:4px 3px 0 5px;
+  	font-size:10px;
+}
+  .shield-chart .shield-tooltip-value
+{
+  	padding:1px 5px 3px;
+}
+  .ie7
+   .shield-tooltip
+{
+   	background-color:#fff;
+   	filter:alpha(opacity=70);
+}
